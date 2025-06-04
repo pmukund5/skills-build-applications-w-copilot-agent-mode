@@ -1,0 +1,68 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.navbar.bg-octofit {
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%) !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar-brand span {
+  color: #ff9800;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ff9800 !important;
+}
+
+h2, h1, h3, h4, h5, h6 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.08);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+.btn, .btn-primary {
+  background: #1976d2;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #0d47a1;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+}
+a:hover, .App-link:hover {
+  color: #ff9800;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.08);
+}
+
+.container {
+  margin-top: 2rem;
+}
