@@ -4,7 +4,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-broccoli-r47q77wv7479h5jqg-8000.app.github.dev/api/activity/')
+    fetch('https://solid-broccoli-r47q77wv7479h5jqg-8000.app.github.dev/api/activities/')
       .then(res => res.json())
       .then(data => setActivities(data));
   }, []);

@@ -24,7 +24,7 @@ from .views import UserViewSet, TeamViewSet, ActivityViewSet, LeaderboardViewSet
 router = DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'teams', TeamViewSet)
-router.register(r'activity', ActivityViewSet)
+router.register(r'activities', ActivityViewSet)
 router.register(r'leaderboard', LeaderboardViewSet)
 router.register(r'workouts', WorkoutViewSet)
 
@@ -33,7 +33,7 @@ def api_root(request, format=None):
     return Response({
         'users': '/users/',
         'teams': '/teams/',
-        'activity': '/activity/',
+        'activities': '/activities/',
         'leaderboard': '/leaderboard/',
         'workouts': '/workouts/',
     })
